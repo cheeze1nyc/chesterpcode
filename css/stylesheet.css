@@ -285,3 +285,44 @@ h1 {
 .sec-hamilton p {
 	font-size: 18px;
 }
+
+.fadeMe {
+  animation:fadeIn 5s linear;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity:0
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+.fadeMe.none {
+  display:none
+}
+
+.fadeMe2 {
+	animation: fadeIn 6s linear;
+}
+
+.fadeMe3 {
+	animation: fadeIn 7s linear;
+}
+
+.fadeB {
+	animation: fadeIn 2s linear;
+}
+
+/*.fadeD {*/
+/*	animation: fadeIn 1s linear;*/
+/*}*/
+
+/*.fadeD1 {*/
+/*	animation: fadeIn 6s linear;*/
+/*}*/
+
+/*.fadeD2 {*/
+/*	animation: fadeIn 3s linear;*/
+/*}*/
