@@ -1,0 +1,287 @@
+/*palettecreator extention
+learnlayout.com*/
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: "bai jamjuree", sans serif;
+	font-size: 16px;
+}
+
+#background {
+	background-image:url(https://c1.staticflickr.com/8/7437/10458044675_0370296a06_b.jpg) ;
+	height:750px;
+	width:99vw;
+	/*opacity:0.9;*/
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+  /*text align center
+  line height 300px??*/
+
+}
+
+/*.top {
+	max-width: 100vh;
+	margin: auto;
+}*/
+
+.main-nav {
+	position: fixed;
+	list-style:none;
+	/*margin-top: 20px;*/
+	margin-right: 20px;
+	margin-left: 950px;
+	height: 50px;
+	padding-bottom: 15px;
+	background-color: black;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: flex-end;	
+}
+
+.main-nav li {
+	display: inline-block;
+}
+
+.main-nav li a {
+	color:white;
+	text-decoration: none;
+	padding: 5px 20px;
+}
+
+/*
+.top {
+	max-width: 1300px;
+	margin:auto;
+}*/
+
+.main-nav li.active a {
+	border:2px solid white;
+	border-radius: 10px;
+}
+
+.main-nav li a:hover {
+	border: 2px solid white;
+	background-color: gray;
+	border-radius: 10px;
+}
+
+.logo {
+	padding: 30px;
+	float: left;
+	position:fixed;
+}
+
+#sec-one {
+	color:white;
+	/*margin-top: 300px;*/
+	margin-bottom: 250px;
+	padding-top: 300px;
+	/*padding-left: 15%;*/
+	/*padding-right 15%;*/
+	clear: both;
+}
+
+h1 {
+	font-size: 3rem;
+	font-weight:bolder;
+	color:#2DA38E;
+	display:flex;
+	justify-content: center;
+}
+
+#driver {
+	list-style:none;
+	width: 100vh;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+}
+
+#driver a {
+	width: 200px;
+	padding: 20px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+} 
+
+
+#driver li a {
+	color:white;
+	text-decoration: none;
+	/*width: 50px;
+	padding: 20px, 50px;
+	margin: 20px, 20px;*/
+	border: 2px solid white;
+	border-radius: 10px;
+	/*display: flex;
+	justify-content: space-between;*/
+}
+
+#driver li a:hover {
+	background-color: gray;
+}
+
+#sec-one li.hamilton a {
+	background-color: gray;
+}
+
+#sec-two {
+	color:white;
+	height: 500px;
+	width: 99vw;
+	/*padding: 0 100px;*/
+	/*margin-top: 255px;*/
+	clear:both;
+	background-color: black;
+}
+
+#sec-two h1 {
+	height: 100px;
+	/*margin-top: 150px;*/
+	padding-top: 100px;
+	padding-bottom: 100px;
+	
+}
+
+#sec-two p {
+	padding-top: 30px;
+	text-align: center;
+}
+
+#sec-three {
+	height: 800px;
+	width: 99vw;
+	clear: both;
+	background-color: #181818;
+	padding-top: 75px;
+
+}
+
+#sec-three .cup {
+	padding-top: 50px;
+	color: white;
+	font-size: 2rem;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.champion  {
+	padding-top: 50px;
+	padding-right:50px;
+	padding-left: 50px;
+	color: white;
+	font-size: 2rem;
+	font-weight: bold;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/*flex-direction: column;*/
+	/*flex-wrap: wrap;*/
+}
+
+/*.champ-d div{
+	padding-top: 50px;
+	color: white;
+	font-size: 2rem;
+	font-weight: bold;
+	display: flex;*/
+	/*flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+
+}*/
+/*.sec-three img {
+	height: 150px;
+	width: 200px;
+	margin: 50px auto;
+}*/
+
+.footer {
+	clear:both;
+	height: 50px;
+	width: 99vw;
+	background-color: black;
+	/*margin: auto auto;*/
+	padding-top: 15px;
+	padding-right: 200px;
+	padding-left: 200px;
+	}
+
+.footer ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer li {
+	display: inline-block;
+}
+
+.footer li a {
+	color: white;
+	text-decoration: none;
+	list-style: none;
+}
+
+.clearfix::after {
+	content: "";
+	clear:both;
+	display:table;
+}
+/*c css clearfix */
+
+
+.sec-valtteri {
+	color:white;
+	width: 1000px;
+	align-items: center;
+	margin: 100px auto;
+	font-size: 15px;
+	
+}
+
+.sec-valtteri div {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+
+}
+
+.sec-valtteri {
+	font-size: 18px;
+}
+
+.sec-hamilton {
+	color:white;
+	width: 1000px;
+	align-items: center;
+	margin: 50px auto;
+	
+}
+
+.sec-hamilton div {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+
+}
+
+.sec-hamilton p {
+	font-size: 18px;
+}
